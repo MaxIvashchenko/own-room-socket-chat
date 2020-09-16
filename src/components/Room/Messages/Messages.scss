@@ -1,0 +1,9 @@
+.messages {
+  padding: 5% 0;
+  background-color: white;
+  overflow: hidden;
+  flex: auto;
+  > div {
+    background-color: white;
+  }
+}

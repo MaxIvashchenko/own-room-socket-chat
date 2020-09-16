@@ -1,0 +1,34 @@
+$blue: #2979ff;
+
+
+
+
+
+* {
+    background-color: rgb(130, 185, 236);
+    box-sizing: border-box;
+}
+a img {
+    width: 25%;
+}
+
+html,
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+
+@import "./components/NotFound/NotFound.scss";
+@import "./components/Chats-room/ChatsRoom.scss";
+@import "./components/Start/Start.scss";
+@import "./components/Room/Room.scss";
+@import "./components/Room/InfoBar/InfoBar.scss";
+@import "./components/Room/InputComponent/InputComponent.scss";
+@import "./components/Room/Messages/Messages.scss";
+@import "./components/Room/Messages/Message/Message.scss";
